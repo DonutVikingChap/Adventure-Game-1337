@@ -1,5 +1,5 @@
 # Adventure Game 1337
-Compile the source files with Visual Studio 2015 and extract the Content.zip into the same folder as the executable.
+Compile the files with Visual Studio 2015 and extract the Content.zip into the same folder as the executable.
 # License
 http://creativecommons.org/licenses/by-nc-nd/4.0/
 # Credits
