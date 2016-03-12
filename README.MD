@@ -1,5 +1,5 @@
 # Adventure Game 1337
-Compile the files in the "src" folder with Visual Studio 2015 and put the .exe in the same directory as the "game" folder and audio files.
+Compile the source files with Visual Studio 2015 and extract the .zip into the same folder as the .exe.
 # License
 http://creativecommons.org/licenses/by-nc-nd/4.0/
 # Credits
