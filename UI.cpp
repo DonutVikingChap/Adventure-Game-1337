@@ -344,6 +344,7 @@ bool mainMenu( Console& console, Player& player, RNG& rng )
 void charCreation( Console& console, Player& player, RNG& rng )
 {
 	auto reload = true;
+	auto skipStat = false;
 	while( reload )
 	{
 		console.clearScreen();
@@ -409,10 +410,12 @@ void charCreation( Console& console, Player& player, RNG& rng )
 		{
 			reload = false;
 			mainMenu( console, player, rng );
+			skipStat = true;
 		}
 	}
 
-	statMenu( console, player, rng );
+	if( !skipStat )
+		statMenu( console, player, rng );
 }
 void statMenu( Console& console, Player& player, RNG& rng )
 {

@@ -852,7 +852,7 @@ std::string handleLocationInput( const std::string& location, const std::string&
 
 				if( input == "info" || input == "description" || input == "more info" )
 				{
-					auto result = player.getCurrentLocation();
+					auto result = location;
 					if( result.front() == '_' )
 						result.erase( 0, 1 );
 
